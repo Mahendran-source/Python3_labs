@@ -15,6 +15,10 @@ while pin != master_pin and attempt < 3:
         break
     else:
         print("Invalid PIN")
+else:
+    #Executes only ONCE when condition becomes False!
+    print("Too many attempts")
+    print("Your card has been retained. Have a nice day!")
 
 print("Done")
 
